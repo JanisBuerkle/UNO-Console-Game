@@ -1,4 +1,4 @@
-# 🃏 UNO WPF App with Multiplayer 🎲
+# 🃏 UNO WPF Gameproject with Multiplayer 🎲
 
 Welcome to the **UNO WPF App**! This application brings the classic UNO card game to your Windows PC, featuring both online and local multiplayer modes. Developed using WPF and following the MVVM architecture, it offers an exciting and interactive gaming experience.
 
@@ -42,6 +42,25 @@ Welcome to the **UNO WPF App**! This application brings the classic UNO card gam
   - **Skip Blue**
   - **7 Red**
 
+## 🚀 Getting Started
+
+To get started with the UNO Game Project, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   https://github.com/JanisBuerkle/UNO-Console-Game.git
+   ```
+   
+
+2. **Run the Game**:
+   Follow the instructions provided in the repository to start the game.
+
+## 📬 Contact
+
+For questions or feedback, please reach out to **Bürkle, Janis** at [janis.buerkle@gmail.com].
+
 ---
 
 Enjoy the strategic and fast-paced world of UNO with the UNO WPF App! Whether playing locally or online, challenge your friends and aim for victory! 🚀
+
+---
