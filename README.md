@@ -1,14 +1,47 @@
-# 🎉 UNO-Game 🎲
-Welcome to the **UNO-Game**! This is a console-based implementation of the classic UNO card game, offering you all the fun and excitement right from your terminal. 
+# 🃏 UNO WPF App with Multiplayer 🎲
 
-## ✨ Features
-- 🎮 Play against your'e friends!
-- 🃏 Classic UNO card rules
-- 🏗️ Built using the MVC (Model-View-Controller) architecture for clean and efficient code management
+Welcome to the **UNO WPF App**! This application brings the classic UNO card game to your Windows PC, featuring both online and local multiplayer modes. Developed using WPF and following the MVVM architecture, it offers an exciting and interactive gaming experience.
 
-## 🛠️ MVC Architecture
-- **Model**: Handles game logic and data such as the deck, player hands, and rules.
-- **View**: Manages the console display, showing the current game state and providing feedback to the player.
-- **Controller**: Connects the user input with the model, updating the game state and reflecting changes in the view.
+## 🌟 Key Features
 
-Enjoy the game and may the best player win! 🎉
+- **Multiplayer Modes**:
+  - **Local Mode**: Play with friends on a single device.
+  - **Online Mode**: Create or join rooms to play with friends over the internet.
+
+- **Game Rules**:
+  - Up to 5 players can join a game, starting with 7 cards each.
+  - Match cards by color or number, or play action cards to change the game flow.
+  - First player to play all their cards wins!
+
+- **Card Details**:
+  - 108 cards total: blue, green, red, and yellow.
+  - Special cards: Draw Two, Reverse, Skip, Wild, and Wild Draw Four.
+
+## 🛠️ MVVM Architecture
+
+- **Model**: Manages core game logic and data, including players and cards.
+- **View**: Presents the game interface using XAML.
+- **ViewModel**: Bridges the Model and View, handling interactions and updates.
+
+## 🖥️ Main Menu Options
+
+- **Local**: Add players, set names, and start a local game.
+- **Multiplayer**: Create or join rooms, set passwords, and manage player settings.
+- **Scoreboard**: View player rankings based on game wins.
+- **Settings**: Toggle between fullscreen and windowed modes.
+- **Exit**: Close the application.
+
+## 📡 Multiplayer Architecture
+
+- **Database**: Stores room and player data.
+- **SignalR Hub**: Manages real-time player connections and game updates.
+
+## 🎴 Card Details
+
+- **Sample Cards**:
+  - **Skip Blue**
+  - **7 Red**
+
+---
+
+Enjoy the strategic and fast-paced world of UNO with the UNO WPF App! Whether playing locally or online, challenge your friends and aim for victory! 🚀
